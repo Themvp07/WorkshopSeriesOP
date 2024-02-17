@@ -1,0 +1,72 @@
+body {
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    display: flex;
+    flex-direction: row;
+  }
+  .form {
+    flex: 0.5;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  #caccount {
+    color: white;
+    font-size: 1.3rem;
+  }
+  #inputText {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    padding: 15px;
+    outline: none;
+    border-radius: 10px;
+    margin-block: 1rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  label {
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  #inputText:focus {
+    border: 2px solid aliceblue;
+  }
+  #addChain {
+    width: max-content;
+    align-self: center;
+    padding: 8px;
+    font-size: 1.2rem;
+    background-color: violet;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+ 
+  
+  .container {
+    flex: 0.5;
+    display: grid;
+    place-content: center;
+    row-gap: 5px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .card {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+  }
+  @media (max-width: 688px) {
+    body {
+      flex-direction: column;
+    }
+  }
+  
